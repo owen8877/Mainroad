@@ -259,11 +259,13 @@ figcaption h4 {
 
 pre,
 code,
+blockquote,
 kbd,
 samp {
 	font-family: {{ $fontFamilySecondary }};
 	font-size: inherit;
 }
+
 
 pre,
 code {
