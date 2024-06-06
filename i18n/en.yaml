@@ -57,6 +57,9 @@
 - id: social_title
   translation: "Social"
 
+- id: friends_title
+  translation: "Friends"
+
 # Tags List widget
 - id: tags_title
   translation: "Tags"

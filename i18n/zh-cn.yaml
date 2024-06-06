@@ -57,6 +57,9 @@
 - id: social_title
   translation: "社交"
 
+- id: friends_title
+  translation: "友情链接"
+
 # Tags List widget
 - id: tags_title
   translation: "标签"

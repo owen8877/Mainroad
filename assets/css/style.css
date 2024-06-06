@@ -51,8 +51,8 @@ html {
 body {
 	margin: 0;
 	font-family: {{ $fontFamilyPrimary }};
-	font-size: 14px;
-	font-size: .875rem;
+	font-size: 16px;
+	font-size: 1rem;
 	line-height: 1.6;
 	word-wrap: break-word;
 	background: #f7f7f7;
@@ -134,14 +134,14 @@ textarea {
 .btn {
 	padding: 5px 10px;
 	font-weight: 700;
-	color: #fff;
+	color: #777;
 	white-space: pre-line;
-	background: #2a2a2a;
+	background: #eee;
 }
 
 .btn:hover {
-	color: #fff;
-	background: {{ $highlightColor }};
+	color: {{ $highlightColor }};
+	background: #f9f9f9;
 }
 
 /* Animation */
@@ -165,28 +165,28 @@ h6 {
 }
 
 h1 {
-	font-size: 32px;
-	font-size: 2rem;
+	font-size: 36px;
+	font-size: 2.25rem;
 }
 
 h2 {
+	font-size: 28px;
+	font-size: 1.75rem;
+}
+
+h3 {
 	font-size: 24px;
 	font-size: 1.5rem;
 }
 
-h3 {
+h4 {
 	font-size: 20px;
 	font-size: 1.25rem;
 }
 
-h4 {
+h5 {
 	font-size: 18px;
 	font-size: 1.125rem;
-}
-
-h5 {
-	font-size: 16px;
-	font-size: 1rem;
 }
 
 h6 {
@@ -425,8 +425,8 @@ select {
 }
 
 .logo__title {
-	font-size: 32px;
-	font-size: 2rem;
+	font-size: 36px;
+	font-size: 2.25rem;
 	font-weight: 700;
 	line-height: 1;
 	color: #000;
@@ -436,8 +436,8 @@ select {
 	display: inline-block;
 	padding-top: 10px;
 	margin-top: 10px;
-	font-size: 14px;
-	font-size: .875rem;
+	font-size: 18px;
+	font-size: 1.125rem;
 	font-weight: 700;
 	line-height: 1;
 	color: {{ $highlightColor }};
@@ -588,8 +588,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .main__title {
-	font-size: 28px;
-	font-size: 1.75rem;
+	font-size: 36px;
+	font-size: 2.25rem;
 }
 
 .main__content {
@@ -647,8 +647,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	margin-top: 4px;
 	margin-top: .25rem;
 	margin-bottom: 0;
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 20px;
+	font-size: 1.25rem;
 	font-style: italic;
 }
 
@@ -880,8 +880,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .list__title {
-	font-size: 20px;
-	font-size: 1.25rem;
+	font-size: 28px;
+	font-size: 1.75rem;
 }
 
 .list__meta {
@@ -1136,7 +1136,25 @@ textarea {
 .widget-social__link-icon {
 	margin: 0 5px 0 0;
 	vertical-align: middle;
-	fill: #fff;
+	fill: #888;
+}
+
+/* Friends widget */
+.widget-friends__item {
+	padding: 0;
+	border: 0;
+}
+
+.widget-friends__link {
+	display: block;
+	margin: 0 0 0px;
+	white-space: normal;
+}
+
+.widget-friends__link-icon {
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+	fill: #888;
 }
 
 /* Tags Widget */
